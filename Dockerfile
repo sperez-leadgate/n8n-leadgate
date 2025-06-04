@@ -1,0 +1,11 @@
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=automation@leadgate.eu
+ENV N8N_BASIC_AUTH_PASSWORD=?56eXKV08D-$
+ENV GENERIC_TIMEZONE=Europe/Amsterdam
+ENV N8N_HOST=https://n8n-leadgate.onrender.com
+ENV N8N_PORT=5678
+ENV N8N_PROTOCOL=https
+
+EXPOSE 5678
